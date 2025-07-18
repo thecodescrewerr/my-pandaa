@@ -1,54 +1,19 @@
-# my-pandaa
+# Cleaned Mental Health Dataset 🧠💼
+## 📁 Files
 
-## 🧹 Data Cleaning and Exploratory Data Analysis (EDA)
+- `mental_health_workplace_survey.csv` – Original dataset
+- `cleaned_mental_health_dataset.csv` – Cleaned version ready for analysis
 
-### 📁 Dataset
+## 🔧 Cleaning Summary
 
-The dataset used is `expenses.csv`, which contains information such as:
-* Age
-* BMI
-* Children
-* Smoker
-* Charges
+- Dropped irrelevant columns (`Timestamp`, `state`, `comments`)
+- Handled missing values using median imputation
+- Removed outliers using the IQR method
+- Visualized key features with boxplots and scatter plots
+- Created a correlation heatmap of numeric variables
 
-### 🔍 Project Workflow
+## 📌 Next Steps
 
-1. **Data Import**
-
-   * Loaded `.csv` file using `pandas.read_csv()`
-
-2. **Initial Exploration**
-
-   * `df.info()` and `df.describe()` used to understand data types and distributions
-
-3. **Missing Values Handling**
-
-   * Verified using `df.isnull().sum()`
-   * Dropped missing values using `df.dropna()` (if any)
-
-4. **Removing Irrelevant Columns**
-
-   * Removed columns like `sex`, `region` (if not useful for analysis)
-
-5. **Outlier Detection & Removal**
-
-   * Used IQR method to detect and remove outliers from numerical columns
-
-6. **Data Visualization**
-
-   * Used `matplotlib` and `seaborn` to visualize:
-
-     * Burnout Level by Gender
-     * Sleep vs Stress
-     * Job Satisfaction vs Burnout
-
-### 🛠 Tools Used
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-
-
-
+- Encode categorical variables
+- Build predictive models (e.g., burnout risk)
+- Evaluate and improve model performance
