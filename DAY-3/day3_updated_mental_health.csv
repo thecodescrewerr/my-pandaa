@@ -1,0 +1,4 @@
+EmployeeID,BurnoutRisk,BurnoutPrediction_Logistic,BurnoutPrediction_LDA
+101,1,1,1
+102,0,0,0
+103,1,1,1
