@@ -1,1 +1,13 @@
+Compared models (Decision Tree, Random Forest, k-NN) using:
+
+Accuracy
+
+ROC-AUC
+
+Analyzed overfitting risks through performance gaps
+
+Selected top features using SelectFromModel
+
+Finalized the most reliable model based on performance and generalization
+
 
